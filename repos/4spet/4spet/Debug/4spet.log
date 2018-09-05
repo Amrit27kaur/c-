@@ -1,0 +1,3 @@
+﻿  4spet.cpp
+c:\users\trios1098\source\repos\4spet\4spet\4spet.cpp(66): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  4spet.vcxproj -> C:\Users\trios1098\source\repos\4spet\Debug\4spet.exe
