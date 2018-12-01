@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Enrollment";
+}
+
+<h2>Enrollment</h2>
+<div class="wrapper">
+    <form>
+        <div class="row">
+            <div class="col-lg-2">
+                First Name:
+            </div>
+            <div class="col-lg-3">
+                <input type="text" id="firstName" placeholder="Enter the First Name" />
+            </div>
+
+            <div class="col-lg-2">
+                Last Name:
+            </div>
+            <div class="col-lg-5">
+                <input type="text" id="lastName" placeholder="Enter the name Name" />
+            </div>
+        </div><br />
+
+        <div class="row">
+            <div class=" col-lg-2">Email:</div>
+            <div class="col-lg-10">
+                <input type="text" id="email" placeholder="Enter the email" />
+
+            </div>
+        </div> <br />
+
+        <div class="row">
+            <div class=" col-lg-2">Phone number:</div>
+            <div class="col-lg-10">
+                <input type="text" id="number" placeholder="Enter the phone number" />
+
+            </div>
+        </div><br />
+
+
+        <div class="row">
+            <div class=" col-lg-2">Address:</div>
+            <div class="col-lg-10">
+                <input type="text" id="address" placeholder="Enter the Address" />
+
+            </div>
+        </div><br />
+
+        <div class="row">
+            <div class=" col-lg-2">Program:</div>
+            <div class="col-lg-10">
+                <input type="text" id="program" placeholder="Enter the program" />
+
+            </div>
+        </div><br />
+
+        <div class="row">
+            <div class=" col-lg-2">Gender:</div>
+
+            <div class="col-lg-10">
+                <input type="radio" name="gender" value="male" > Male
+                <input type="radio" name="gender" value="female"> Female<br>
+            </div>
+        </div><br />
+
+
+    </form>
+
+    <div class="row">
+        <div class="col-lg-8">
+
+        </div>
+        <div class="col-lg-4">
+            <input type="button" value="Submit" onclick="form1()" />
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function form1()
+    {
+      
+        var first = document.getElementById("firstName").value;
+        var last = document.getElementById("lastName").value;
+        var mail = document.getElementById("email").value;
+        var phone = document.getElementById("number").value;
+        var add = document.getElementById("address").value;
+        var program = document.getElementById("program").value;
+       
+
+    }
+</script>
